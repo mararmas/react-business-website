@@ -1,0 +1,68 @@
+.custom-bg {
+    background-color: #D6D4D4;
+   
+    width:100%;
+    padding: 0;
+    margin:0;
+}
+
+.header-fijo{
+    
+        position: fixed;  
+        top: 0;         
+        left: 0;         
+        width: 100%;    
+        z-index: 1000;
+        background-color: white;
+        padding: 14px 0;     
+
+}
+
+.linea-blanca{
+    background-color: white;
+    padding:5px 0 ;
+}
+
+@keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);  /* Desplazamiento inicial */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);  /* Posición final */
+    }
+  }
+  
+  .img-animate {
+    animation: slideUp 1.5s ease-out;  /* Duración de 1.5 segundos */
+  }
+
+  .form-fijo{
+    position: fixed;
+  }
+
+  .carousel-control-prev.custom-control {
+    position: absolute;
+    top: 50%; /* Cambia la posición vertical al 50% del carrusel */
+    left: 150px; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateY(-50%); /* Centra verticalmente el botón */
+  }
+  
+  /* Personaliza la posición del botón de control siguiente */
+  .carousel-control-next.custom-control {
+    position: absolute;
+    top: 50%; /* Cambia la posición vertical al 50% del carrusel */
+    right: 150px; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateY(-50%); /* Centra verticalmente el botón */
+  }
+
+  .custom-caption {
+    position: absolute;
+    bottom: -10px; /* Ajusta el valor para controlar cuán cerca del borde inferior estará */
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+  }

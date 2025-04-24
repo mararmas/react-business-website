@@ -2,7 +2,7 @@ const Elegirnos=()=>{
 
     return(
       
-      <div className="row p-5" style={{marginTop:"150px"}}>
+      <div className="row p-5" style={{marginTop:"10px"}}>
 
       <h1 className="text-center p-5 ">¿Por qué elegirnos?</h1>
 
@@ -15,7 +15,7 @@ const Elegirnos=()=>{
                         style={{width:"400px", height:"200px"}} ></img>
 
                             <div class="p-1">  
-                              <h5 style={{fontSize:"30px",color:"#555" }}>Economía</h5>
+                              <h5 style={{fontSize:"30px",color:"#555",position:"relative", left:"120px" }}>Economía</h5>
                                  <p style={{fontSize:"20px"}}>La eficiencia de nuestro personal, 
                                    directamente formado por nosotros, nos permite ofrecer los precios más
                                       competitivos del mercado junto con una excelente calidad.
@@ -31,7 +31,7 @@ const Elegirnos=()=>{
                       style={{width:"400px", height:"200px"}} ></img>
 
                             <div class="p-1">  
-                                <h5 style={{fontSize:"30px", color:"#555"}}>Medioambiente</h5>
+                                <h5 style={{fontSize:"30px", color:"#555", position:"relative", left:"90px"}}>Medioambiente</h5>
                                   <p style={{fontSize:"20px"}}>Utilizamos exclusivamente productos naturales y 
                                    ecológicos que no dañan el medioambiente ni afectan la calidad del aire en tu hogar o negocio.
                                     Con nosotros, puedes disfrutar de ventanas impecables sin comprometer el bienestar del planeta.
@@ -49,7 +49,7 @@ const Elegirnos=()=>{
                        style={{width:"400px", height:"200px"}} ></img>
 
                            <div class="p-1">
-                           <h5 style={{fontSize:"30px",color:"#555"}}>Seguridad</h5>
+                           <h5 style={{fontSize:"30px",color:"#555", position:"relative", left:"120px"}}>Seguridad</h5>
                               <p style={{fontSize:"20px"}}>Cumplimos estrictamente con la legislación en materia de
                                 seguridad laboral y todas nuestras intervenciones están cubiertas
                                   por un seguro de responsabilidad civil.</p>

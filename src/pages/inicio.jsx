@@ -2,6 +2,7 @@ import './Header.css';
 import Presupuesto from "./formSolicitePresupuesto";
 import Elegirnos from './PorqElegirnos';
 
+
 const Inicio = () => {
     return (
       <div>
@@ -18,7 +19,7 @@ const Inicio = () => {
 
                   </div>
 
-                  
+
                 <Presupuesto/>
                      
     
@@ -44,10 +45,10 @@ const Inicio = () => {
     
 
                                <img src="https://optima-solar.com/wp-content/uploads/2018/02/foto-3.jpg" 
-                                      alt="imagen" width="700"
+                                      alt="imagen" width="600"
                                                style={{
                                                         position:"absolute",
-                                                        left:"350px",
+                                                        left:"500px",
                                                          top:"0",
                                                          maxWidth:"100%"
                                                          }}/>
@@ -68,10 +69,10 @@ const Inicio = () => {
                                                              maxWidth:"150%"}}>
             
                  <div className="row justify-content-left">
-                    <div className="col-md-3">                 
+                    <div className="col-md-4">                 
                                                  
                       
-                              <div className="mb-1" style={{fontSize:"19px"}}>
+                              <div className="mb-1" style={{fontSize:"19px", position:"relative", marginTop:"-10px"}}>
                                  <p > Nos especializamos en la
                                    limpieza de paneles solares utilizando un sistema de agua pura, garantizando una eliminación eficaz
                                      de la suciedad sin dejar residuos.</p><p>Mantener tus paneles solares limpios es crucial para asegurar
